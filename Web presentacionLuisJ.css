@@ -1,0 +1,121 @@
+*{
+    box-sizing: border box;
+}
+
+#Body{
+ background-color: #F0F3F4;
+}
+#Titulo{
+    position: absolute;
+	background-color: #34495E;
+    background-position: center top;
+	border-style:rounded;
+	border-radius: 10px;
+    border-width: 5px;
+	height:130px;
+    width:100%;
+    padding: 10px;
+    display: flex;
+	text-align: center;
+
+}
+#Nombre{
+    position: relative;
+    left:35%;
+    background-color: #AAB7B8;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	font-family: "Courier New", Gadget, Monospace;
+	color: #F0F3F4;
+	font-size: 25px;
+	height: 100px;
+    width:auto;
+    padding: 10px;
+	margin-top:10px;
+	padding:2px;
+	border:solid #F0F3F4
+}
+#nav{
+	position: fixed;
+	top: 100px;
+	background-color: #34495E;
+    background-position: center top;
+	border-style:rounded;
+	border-radius: 10px;
+    border-width: 5px;
+	transition: 0.5s;
+	width:20%;
+	height: 425px;
+    padding: 10px;
+    margin: relative;
+	margin-left: 10px;
+	margin-top: 60px;
+    display: flex;
+}
+a.gutter_item{
+	margin:10px;
+	line-height: 16px;
+	display: block;
+	font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+	color:#F0F3F4;
+    text-decoration: none;}
+a.gutter_item:hover{
+	color:#A569BD;
+}
+#Inicio{
+	
+	background-color: #AAB7B8;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	transition: 0.5s;
+	font-family: "Courier New", Gadget, Monospace;
+	color: #34495E;
+	font-size: 13px;
+	height: 100px;
+	margin-top:10px;
+	padding:2px;
+	border:solid #F0F3F4;
+}
+#Inicio:hover{
+	padding:6px;
+}
+#Galeria{
+	
+	background-color: #AAB7B8;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	transition: 0.5s;
+	font-family: "Courier New", Gadget, Monospace;
+	color: #34495E;
+	font-size: 13px;
+	height: 130px;
+	margin-top:10px;
+	padding:2px;
+	border:solid #F0F3F4;
+}
+#Galeria:hover{
+	padding:6px;
+}
+#Informacion{
+	
+	background-color: #AAB7B8;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	transition: 0.5s;
+	font-family: "Courier New", Gadget, Monospace;
+	color: #34495E;
+	font-size: 13px;
+	height: 110px;
+	margin-top:10px;
+	padding:2px;
+	border:solid #F0F3F4;
+}
+#Informacion:hover{
+	padding:6px;
+}
