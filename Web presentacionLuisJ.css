@@ -93,7 +93,7 @@ a.gutter_item:hover{
 	font-family: "Courier New", Gadget, Monospace;
 	color: #34495E;
 	font-size: 13px;
-	height: 130px;
+	height: 150px;
 	margin-top:10px;
 	padding:2px;
 	border:solid #F0F3F4;
@@ -118,4 +118,23 @@ a.gutter_item:hover{
 }
 #Informacion:hover{
 	padding:6px;
+}
+#contenido{
+	justify-content:space-around;
+	background-color: #AAB7B8;
+	width: 1500px;
+	height: 1500px;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#cudro{
+	background-color: red;
+	border-style:rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	width: 800px;
+	height: 800px;
 }
