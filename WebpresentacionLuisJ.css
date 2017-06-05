@@ -129,11 +129,11 @@ a.gutter_item:hover{
 	padding:6px;
 }
 
-#contenido{
+#contenidoIndex{
     position:absolute;
 	left:15%;
-	width:70%;
-	height:1500px;
+	width:75%;
+	height:900px;
     margin-top: 153px;
     margin-left: 140px;
 	background-color: #AAB7B8;
@@ -143,6 +143,52 @@ a.gutter_item:hover{
 	display: flex;
 	flex-wrap: wrap;
 }
+
+#contenidoAcabados{
+    position:absolute;
+	left:15%;
+	width:75%;
+	height:800px;
+    margin-top: 153px;
+    margin-left: 140px;
+	background-color: #AAB7B8;
+	border-style: rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contenidoModelado{
+    position:absolute;
+	left:15%;
+	width:75%;
+	height:1200px;
+    margin-top: 153px;
+    margin-left: 140px;
+	background-color: #AAB7B8;
+	border-style: rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#contenidoAnimacion{
+    position:absolute;
+	left:15%;
+	width:75%;
+	height:1200px;
+    margin-top: 153px;
+    margin-left: 140px;
+	background-color: #AAB7B8;
+	border-style: rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .cuadro{
 	background-color: #34495E;
     border-style: rounded;
@@ -156,8 +202,16 @@ a.gutter_item:hover{
 	margin-top:20px;
     text-align:center;
 }
-.25{
-    background-color: red;
-    width: 20px;
-    height: 20px;
+.cuadroIndex{
+	background-color: #34495E;
+    border-style: rounded;
+	border-radius: 20px;
+    border-width: 5px;
+	height:350px;
+	width:450px;
+	display:inline-table;
+	margin-right:2%;
+    margin-left:2%;
+	margin-top:20px;
+    text-align:center;
 }
