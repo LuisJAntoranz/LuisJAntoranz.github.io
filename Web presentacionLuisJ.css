@@ -121,9 +121,14 @@ a.gutter_item:hover{
 }
 #contenido{
 	justify-content:space-around;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: auto;
+    margin-right: auto;
 	background-color: #AAB7B8;
-	width: 1500px;
-	height: 1500px;
+    right: 150px;
+	width: 1200px;
+	height: 1200px;
 	border-style:rounded;
 	border-radius: 20px;
     border-width: 5px;
