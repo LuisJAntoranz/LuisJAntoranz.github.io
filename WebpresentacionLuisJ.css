@@ -145,6 +145,8 @@ a.gutter_item:hover{
 }
 
 #contenidoAcabados{
+	font-family: "Courier New", Gadget, Monospace;
+	color: #F0F3F4;
     position:absolute;
 	left:15%;
 	width:75%;
@@ -160,6 +162,8 @@ a.gutter_item:hover{
 }
 
 #contenidoModelado{
+	font-family: "Courier New", Gadget, Monospace;
+	color: #F0F3F4;
     position:absolute;
 	left:15%;
 	width:75%;
@@ -175,6 +179,8 @@ a.gutter_item:hover{
 }
 
 #contenidoAnimacion{
+	font-family: "Courier New", Gadget, Monospace;
+	color: #F0F3F4;
     position:absolute;
 	left:15%;
 	width:75%;
